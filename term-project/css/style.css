@@ -1,0 +1,208 @@
+/*DEFUALT OF THE WEB PAGE*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: none;
+    color: rgb(18, 11, 11);
+}
+
+/* ALL HEADING TAGS*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PARAGRAPHS, LABEL, SPAN, ANCHOR_TAG*/
+p,
+label,
+span,
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.hover{
+    color: rgb(191, 118, 30);
+}
+
+.body{
+    width: 100%;
+}
+
+   /*HOME AREA*/
+
+/*HEADER AREA*/
+.nav{
+    overflow: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.nav 
+h1 {
+    width: 50%;
+    float: left;
+}
+
+.nav
+ul {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.nav
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.nav
+li {
+    display: inline-block;    
+}
+
+/*BANNER AREA 1*/
+.banner{
+    height: 650px;
+    background-color: orange;
+    background-image: url(../images/atf-image.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+}
+
+.banner-text{
+    width: 30%;
+    position: relative;
+    top:25%;
+    left:7.5%;
+}
+
+.banner h2{
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 75px;
+}
+
+.banner a{
+    padding: 15px 20px;
+    background-color: #432818;
+    color: white;
+    display:inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.banner span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 177, 75);
+}
+
+.banner p{
+    font-style: italic;
+    margin-bottom: 15px;
+    top: 20%;
+    left: 7.5%;
+}
+
+/*ADS AREA 1*/
+.ads {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+.ads-box {
+    width: 49.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-color: #c7a17a;
+    position: relative;
+}
+
+.ads-box:nth-child(1),
+.ads-box:nth-child(3){
+    margin-right: 1%;
+}
+
+.ads-box:nth-child(1),
+.ads-box:nth-child(2){
+    margin-bottom: 5%;
+}
+
+.ads-box:nth-child(1){
+    background-image: url(../images/merchandise1.jpg);
+}
+
+.ads-box:nth-child(2){
+    background-image: url(../images/merchandise2.jpg);
+}
+
+.ads-text{
+    text-align: left;
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-right: 50%;
+}
+
+.ads-text h3{
+    color: white;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ads-ads2{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.ads-box {
+    width: 49.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-color: #c7a17a;
+    position: relative;
+}
+
+.ads-box:nth-child(1),
+.ads-box:nth-child(3){
+    margin-right: 1%;
+}
+
+.ads-box:nth-child(1),
+.ads-box:nth-child(2){
+    margin-bottom: 5%;
+}
+
+.ads-box:nth-child(1){
+    background-image: url(../images/merchandise1.jpg);
+}
+
+.ads-box:nth-child(2){
+    background-image: url(../images/merchandise2.jpg);
+}
+
+

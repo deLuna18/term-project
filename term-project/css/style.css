@@ -447,3 +447,89 @@ img{
     margin-right: 40%;
     margin-bottom: 5%;
 }
+
+
+    /*RESERVATION*/
+    
+/*FORM*/
+
+
+form{
+    text-align: left;
+    width: 100%;
+    margin-top: 3rem;
+
+}
+
+.in-form{
+    width: 50%;
+    padding: 6.5px;
+    float: left;
+}
+
+input{
+    width: 100%;
+    position: relative;  
+}
+
+textarea{
+    resize: vertical;
+}
+
+.style-form{
+    background-color: #cfcfcf5e;
+    margin: 0px 0px 0px 88px;
+    padding: 10px;
+}
+
+.instyle-form{
+    padding: .4rem;
+}
+
+.sp{
+    font-size: .6rem;
+    margin-left: .6rem;
+}
+
+.radiostyle{
+    width: 10px; 
+    margin-top: 10px;
+}
+
+.d-and-l{
+    width: 10px; 
+    margin-top: 10px;
+}
+
+.in-form2{
+    background-color: #cfcfcf5e;
+    margin: 0px 88px 0px 0px;
+    padding: 10px;
+}
+
+.pay{
+    text-align: center;
+}
+
+.pay-text{
+    font-size: .8rem;
+    text-align: center;
+}
+
+.button{
+    background-color: green; 
+    text-align: center; 
+    width: 100%; 
+    color: white; 
+    padding: 4px 0px;
+}
+
+.re-text{
+    color:rgb(18, 11, 11);
+    font-size: 27px;    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.7;  
+}

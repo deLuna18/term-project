@@ -124,6 +124,7 @@
                 </tr>
             </table>
         </center>
+
         <!-- BANNER AREA 2 -->
         <div class="bx">
             <p>What Happens Here</p>
@@ -131,6 +132,7 @@
             <p><u><a href="">Read More</a></u>
                 <br />
         </div>
+        
         <!-- TEXT 2 -->
         <div class="text2">
             <div class="in-text3">
@@ -178,6 +180,7 @@
                 </tr>
             </table>
         </center>
+
         <!-- ADS AREA  2-->
         <div class="adve ads2">
             <!-- ADS 1 -->
@@ -209,39 +212,81 @@
                 </div>
             </div>
         </div>
-</div>
 <!-----------------------------------------------RESERVATION----------------------------------------------------->
-        <div id="reservation">
-            <h2>Reservation Form</h2>
-        <hr />
-                <label for="name">Full Name</label>
-                    <input type="text"  name="name" id="name" placeholder="Last Name, First Name">
-                <label for="email">Email Address</label>
-                    <input type="email" name="email" id="email" placeholder="mail@mail.com">
-                <label for="phone_number">Phone Number</label>
-                    <input type="number" name="number" id="number" placeholder="(Area Code)1234567890">
-                <label for="reservation">Reservation Details</label>
-            <select name="reservation" id="reservation">
-                <option value="1 person table">1 person table</option>
-                <option value="2 person table">2 person table</option>
-                <option value="3 person table">3 person table</option>
-                <option value="4 person table">4 person table</option>
-                <option value="5 person table">5 person table</option>
-            </select>
-                <label for="date">Reservation Date</label>
-                    <input type="date"  name="date" id="date">
-                    <input type="radio" name="date" id="date"> Morning
-                    <input type="radio" name="date" id="date"> Afternoon
-                <label for="request">Additional Request</label>
-            <textarea name="text" name="request" id="request" cols="48" rows="5" resize="none"></textarea>
-                <p><h3>Payment</h3></p>
-                <p>Payments Acccepted Cards</p>
-                <label for="credit_card">Credit Card Name</label>
-                    <input type="text" name="credit_card" id="credit_card"  placeholder="John Dave">
-                <label for="number">Credit Card Number</label>
-                    <input type="number" id="number" placeholder="1234567890"> 
-                <label for="ipsum">I agree Lorem ipsumd dolor sit amet.</label>
-                    <button type="button">Send</button>
+        <div id="reservation" class="reservation">
+            <!-- RESERVATION FORM -->
+            <div class="re-text">
+                <h2>Reservation Form</h2>
+            </div>
+
+                <!-- HORIZONTAL LINE 3 -->
+                <hr class="h-4">
+
+            <!-- FORM1 -->
+            <form action="">
+                <div class="in-form">
+                    <div class="style-form">
+                        <label for="name">Full Name</label>
+                            <input type="text"  name="name" id="name" placeholder="Last Name, First Name" class="instyle-form">
+                        <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email" placeholder="mail@mail.com" class="instyle-form">
+                        <label for="phone_number">Phone Number</label>
+                            <input type="number" name="number" id="number" placeholder="(Area Code)1234567890" class="instyle-form">
+                        <label for="reservation">Reservation Details</label>
+                        
+                            <br />
+
+                        <span class="sp">1 person table</span>
+
+                            <br />
+
+                        <label>Reservation Date</label>
+                            <input type="date" class="instyle-form">
+
+                            <br />
+
+                            <input type="radio" name="radio" id="radio" class="radiostyle">
+                        <label class="d-and-l">Morning</label>
+                            <input type="radio" name="radio" id="radio" class="radiostyle">
+                        <label class="d-and-l">Afternoon</label>
+                        <!-- <select name="reservation" id="reservation">
+                            <option value="1 person table">1 person table</option>
+                            <option value="2 person table">2 person table</option>
+                            <option value="3 person table">3 person table</option>
+                            <option value="4 person table">4 person table</option>
+                            <option value="5 person table">5 person table</option>
+                        </select> -->
+                    </div>
+                </div>
+
+                <div class="in-form">
+                    <div class="in-form2">
+                        <label>Adding Request</label>
+                        
+                            <br />
+
+                        <textarea name="" id="" style="width: 100%;" rows="10"></textarea>
+                        
+                            <h4 class="pay">Payment</h4>
+                            <p class="pay-text">Payment Accepted Cards</p>
+                            <p class="pay-text">cards</p>
+
+                        <label for="email">Credit Card Name</label>
+                            <input type="text" name="card_name" id="card_name" placeholder="John Doe" class="instyle-form">
+                        <label for="email">Credit Card Number</label>
+                            <input type="number" name="card_number" id="card_number" placeholder="1234567890" class="instyle-form">
+                            <input type="checkbox" name="checkbox" id="checkbox" class="radiostyle">
+                        <label class="d-and-l">I agree Lorem ipsum dolor sit amet.</label>
+
+                            <br />
+                            
+                        <button type="submit" href="" class="button" >SEND</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+</div>
+
             <h3>Opening Hours</h3>
                 <table>
                     <thead>

@@ -206,3 +206,244 @@ li {
 }
 
 
+    /* MENU AREA*/
+
+/*TEXT 1*/
+.text1{
+    text-align: center;
+    margin: 1%;
+}
+
+.in-text1 p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-style: italic;
+    opacity: 10px;
+    color: #c7a17a;
+}
+
+.in-text2 .h2-tag h2 {
+    color:rgb(18, 11, 11);
+    font-size: 35px;  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.7;  
+}
+
+/*HR-1*/
+.h-1{
+    border-top: 4px solid rgba(226, 90, 52, 0.856);
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5%;
+}
+
+/*TABLE IMAGE*/
+.image-gallery2{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+    float: left;
+    padding: 2px 88px;
+    margin-top:2px;
+    text-align:"center";
+    margin-bottom: 30px;
+    
+}
+
+.tdimg{
+    padding-right: 8px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/*ADS AREA 2*/
+.adve {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.adve-box {
+    width: 49.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-color: #c7a17a;
+    position: relative;
+}
+
+.ads-box:nth-child(1),
+.ads-box:nth-child(3){
+    margin-right: 1%;
+}
+
+.ads-box:nth-child(1),
+.ads-box:nth-child(2){
+    margin-bottom: 5%;
+}
+
+.ads-box:nth-child(1){
+    background-image: url(../images/merchandise1.jpg);
+}
+
+.ads-box:nth-child(2){
+    background-image: url(../images/merchandise2.jpg);
+}
+
+.adve-text{
+    text-align: left;
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-right: 50%;
+}
+
+.adve-text h3{
+    color: white;
+    font-size: 200%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.adve-text a {
+    color: white;
+}
+
+.adve-ads2{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.adve-box {
+    width: 49.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-color: #c7a17a;
+    position: relative;
+}
+
+.adve-box:nth-child(1),
+.adve-box:nth-child(3){
+    margin-right: 1%;
+}
+
+.adve-box:nth-child(1),
+.adve-box:nth-child(2){
+    margin-bottom: 1%;
+}
+
+.adve-box:nth-child(1){
+    background-image: url(../images/merchandise3.jpg);
+}
+
+.adve-box:nth-child(2){
+    background-image: url(../images/merchandise4.jpg);
+}
+
+.adve-box:nth-child(3){
+    background-image: url(../images/merchandise5.jpg);
+}
+
+.adve-box:nth-child(4){
+    background-image: url(../images/merchandise6.jpg);
+}
+
+/*BANNER 2*/
+.bx{
+    overflow: auto;
+    margin-left: 88px;
+    margin-right: auto;
+    width: 85%;
+    padding: 5%;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.in-bx{
+    width: 50%;
+    margin: 0.5cm;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family: tahoma;
+    color: black
+}
+
+.bx p{
+    text-align: center;
+    font-style: italic;
+    color: #c7a17a;
+    text-align: center;
+    font-size: 100%;
+}
+
+.bx h3{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.bx a{
+    padding: 4px 12px;
+    background-color: white;
+    color: black;
+    display:inline-block;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 0.6rem;
+    border-radius: 2px;
+}
+/*TEXT 2*/
+.text2{
+    text-align: center;
+    margin: 7%;
+}
+
+.in-text3 p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-style: italic;
+    opacity: 0.7;
+    color: #c7a17a;
+}
+
+.in-text4 .h3-tag h2 {
+    color:rgb(18, 11, 11);
+    font-size: 35px;  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.7;  
+}
+
+/*HR-2*/
+.h-2{
+    border-top: 4px solid rgba(219, 154, 14, 0.856);
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5%;
+}
